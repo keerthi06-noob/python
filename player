@@ -1,0 +1,26 @@
+import random
+p1=(input("enter a name:"))
+p2=(input("enter a name:"))
+s1=15
+s2=15
+d1=random.randint(1,15)
+d2=random.randint(1,15)
+print("player 1")
+while(True):
+    g1=("enter a num :")
+    s1=s1-1
+    if g1==d1:
+     break
+print(" player 2")
+while(True):
+    g2=("enter a num :")
+    s2=s2-1
+    if g2==d2:
+     break
+print("summary")
+print("{}.{}".format(p1,s1))
+print("{}.{}".format(p2,s2))
+if s1>s2:
+    print("winner p1")
+else :
+ print("winner p2")
