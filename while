@@ -1,0 +1,7 @@
+sum=0
+while(True):
+    a=int(input("enter the amout in rs :"))
+    sum=sum+a
+    if a==0:
+        break
+print("total is,sum")        
