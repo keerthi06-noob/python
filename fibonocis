@@ -8,4 +8,4 @@ def fibo(i):
 a=int(input("enter any num:"))
 for i in range(a):
     x=fibo(i)
-print (x,end=" ")
+    print (x,end=" ")
